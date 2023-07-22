@@ -18,11 +18,11 @@
             <div class="left">Vidushi's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Past Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pastprojects">Past Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,18 +35,19 @@
 
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download resume</button>
-                    <button class="btn">Visit Github</button>
+                    <a class="btn" href="https://www.linkedin.com/in/vidushi-agarwal-a95885256/"> Linkedin Profile</a>
+                    <a class="btn" href="https://github.com/Agarwalvidu"> Visit Github</a>
                 </div>
             </div>
             <div class="rightSection">
-                <img src="images/—Pngtree—illustration of female programmer at_6006375.png"
-                    alt="">
+                
+                   
+                <img src="images/portfolio-removebg-preview.png" alt="">
             </div>
 
         </section>
         <hr>
-        <section class="secondSection">
+        <section class="secondSection" id="about">
             <span class="text-gray">What I can do for you</span>
             <h1>My Services and Education</h1>
 
@@ -123,6 +124,66 @@
             </div>
         </section>
     </main>
+
+          <!-- Projects -->
+          <section id="projects" class="section projects">
+            <h2 class="section__title">PROJECTS</h2>
+    
+            <div class="projects__grid">
+              <div class="project">
+                <h3>Equinox 2023</h3>
+                <p class="project__description">
+                    Exam results can be a stressful feat for both students & teachers, especially when ascribing and managing them is a tiresome task requiring utmost precision and efficiency . To solve this problem, we have come up with a unified result management repository for the exam result management of IGDTUW. 
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item"><a href="https://github.com/Agarwalvidu/Equinox23_TripleCrescents">Github Link</a></li>
+                  
+                </ul>
+    
+                
+               </div>
+    
+              <div class="project">
+                <h3>NORMID 2023</h3>
+                <p class="project__description">
+                    A stary and celestially NETFLIX clone website named STARFLIX presents you the most iconic movies with the celestial these. I hope you will find it interesting and found yourself in the world of stars.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item"><a href="https://www.figma.com/file/TvDvXtkkWMvCteUtUVLTiI/StarFlix?type=design&node-id=0-1&mode=design&t=4kva9rg7N8fvhf4d-0">Figma</a></li>
+                
+                </ul>
+    
+                
+             </div>
+             <div class="project">
+                <h3>CASTOR 2023</h3>
+                <p class="project__description">
+                    Presenting COLLEGE CART which can serve you whatever you want college notes, your daily reminders, free credits and many more.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item"><a href="https://app.flutterflow.io/share/castor-vz229k">Flutter Flow</a></li>
+                
+                </ul>
+    
+                
+             </div>
+
+             <div class="project">
+                <h3>MSC BOOTCAMP 2023</h3>
+                <p class="project__description">
+                    A clone for IRCTC website formed as a major project for web development project by html, javascript and css.It contains various pages and it is functionable too.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item"><a href="https://github.com/Agarwalvidu/IRCTC_WebsiteClone">Github Link</a></li>
+                
+                </ul>
+    
+                
+             </div>
+    
+              
+            </div>
+          </section>
     <footer>
         <div class="footer">
             <div class="footer-first">
@@ -160,6 +221,68 @@
             Copyright &#169; vidushisportfolio.com | All Rights Reserved
         </div>
     </footer>
+    <script>
+        // Handle the scroll event when clicking on the "About" link
+        document.querySelector('a[href="#home"]').addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the default link behavior
+
+            // Scroll up by 100 pixels
+            window.scrollBy({
+                top: 10,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    <script>
+        // Handle the scroll event when clicking on the "About" link
+        document.querySelector('a[href="#about"]').addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the default link behavior
+
+            // Scroll up by 100 pixels
+            window.scrollBy({
+                top: 150,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+<script>
+    // Handle the scroll event when clicking on the "About" link
+    document.querySelector('a[href="#services"]').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default link behavior
+
+        // Scroll up by 100 pixels
+        window.scrollBy({
+            top: 500,
+            behavior: 'smooth'
+        });
+    });
+</script>
+<script>
+    // Handle the scroll event when clicking on the "About" link
+    document.querySelector('a[href="#pastprojects"]').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default link behavior
+
+        // Scroll up by 100 pixels
+        window.scrollBy({
+            top: 1100,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+<script>
+    // Handle the scroll event when clicking on the "About" link
+    document.querySelector('a[href="#contact"]').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default link behavior
+
+        // Scroll up by 100 pixels
+        window.scrollBy({
+            top: 280,
+            behavior: 'smooth'
+        });
+    });
+</script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
@@ -169,6 +292,7 @@
             typeSpeed: 50,
         });
     </script>
+    
 
 
 </body>
