@@ -15,7 +15,16 @@ nav {
     align-items: center;
     height: 80px;
     background-color: rgb(9, 9, 75);
+    
 }
+    
+    @media screen and (max-width: 767px) {
+        nav{
+            height:50px;
+            margin-top:0px;
+            width:auto;
+        }
+    }
 
 nav ul {
     display: flex;
@@ -25,6 +34,7 @@ nav ul {
 nav ul li {
     list-style: none;
     margin: 0 23px;
+    
 }
 
 nav ul li a {
@@ -45,6 +55,24 @@ main hr {
 
 .left {
     font-size: 1.5rem;
+}
+@media screen and (max-width: 767px) {
+    .left{
+        font-size: 9px;
+        margin-left: 190px;
+        margin-right: 100px;
+    }
+    .right{
+        font-size: 9px;
+        margin-left: 0;
+    }
+    nav ul{
+        margin-right: 188px;
+    }
+    nav ul li {
+        list-style: none;
+        margin: 0 3px;
+    }
 }
 
 .firstSection {
@@ -79,12 +107,45 @@ main hr {
     font-size: 20px;
     cursor: pointer;
 }
-
 .rightSection img {
     width: 60%;
     margin: 30px 0;
 
 }
+@media screen and (max-width: 767px) {
+    .firstSection{
+        width:auto;
+        margin: 35px 0;
+        height: 210px;
+        }
+    .firstSection>div {
+        width: 45%;
+    
+    }
+    .leftSection{
+        font-size: 1rem;
+    }
+    .leftSection .buttons {
+        padding: 8px 0;
+        width: fit-content;
+    }
+    .leftSection .btn{
+        font-size:7px;
+        padding: 8px;
+        display: grid;
+        margin-bottom: 2px;
+    }
+    .rightSection img {
+        margin-bottom: 92px;
+        width: 95%;
+    }
+    main hr {
+        margin: 21px 7px;
+    width: 244px ;
+    }
+}
+
+
 
 .purple {
     color: rgb(122, 69, 170);
@@ -143,6 +204,11 @@ main hr {
     color: gray;
     width: 150px;
     font-size: 9px;
+}
+@media screen and (max-width: 767px) {
+    .secondSection{
+        width:260px;
+    }
 }
 
 footer {
